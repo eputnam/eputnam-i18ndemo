@@ -1,0 +1,53 @@
+# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo )  #-#-#-#-#
+# Japanese translations for eputnam-i18ndemo package.
+# Copyright (C) 2017 Puppet, Inc.
+# This file is distributed under the same license as the eputnam-i18ndemo package.
+# Automatically generated, 2017.
+#
+# #-#-#-#-#  eputnam-i18ndemo_metadata.pot (eputnam-i18ndemo VERSION)  #-#-#-#-#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: docs@puppet.com\n"
+"POT-Creation-Date: 2017-10-26 15:46-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo )  #-#-#-#-#\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  eputnam-i18ndemo_metadata.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+
+#: ../lib/facter/i18ndemo_fact.rb:4
+msgid "i18ndemo_fact: this is a raise from a custom fact from eputnam-i18ndemo"
+msgstr ""
+
+#: ../lib/puppet/functions/happyfuntime.rb:8
+msgid "IT'S HAPPY FUN TIME"
+msgstr ""
+
+#: ../lib/puppet/type/i18ndemo_type.rb:9
+msgid "Value %{v} is not a valid value for i18ndemo_type::name"
+msgstr ""
+
+#: ../lib/puppet/type/i18ndemo_type.rb:10
+msgid "Good value for i18ndemo_type::name"
+msgstr ""
+
+#: ../lib/puppet/type/i18ndemo_type.rb:16
+msgid "%{v} is not a valid directory"
+msgstr ""
+
+#. metadata.json
+#: .summary
+msgid "Module to demo i18n functionality."
+msgstr ""
+
+#. ./manifests/init.pp:17
+msgid "Creating i18ndemo file"
+msgstr ""
