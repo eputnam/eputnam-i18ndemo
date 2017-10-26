@@ -5,8 +5,8 @@ Puppet::Functions.create_function(:happyfuntime) do
 
   def happyfuntime(value)
     s = ''
-    s << '--*IT\'S HAPPY FUN TIME*--'
-    s << value.to_s.reverse
-    s << '--*********************--'
+    s << "--*IT'S HAPPY FUN TIME*--\n"
+    s << "#{value.to_s.reverse}\n"
+    s << "--*********************--\n"
   end
 end

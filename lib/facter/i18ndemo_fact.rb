@@ -1,7 +1,7 @@
 Facter.add('i18ndemo_fact') do
   setcode do
-    fact_var = 'fact'
     # rubocop:disable Style/StringLiterals
-    raise _("i18ndemo_%{fact} is a raise from a custom %{fact} from eputnam-i18ndemo") % { fact: fact_var }
+    opensslv = Facter::Util::Resolution.exec('openssl version')
+    raise 'i18ndemo_fact: this is a raise from a custom fact from eputnam-i18ndemo' if opensslv
   end
 end
