@@ -1,8 +1,6 @@
 # i18ndemo::params
 #
-# A description of what this class does
-#
-# @summary A short summary of the purpose of this class
+# @summary Params class for i18ndemo
 #
 # @example
 #   include i18ndemo::params
