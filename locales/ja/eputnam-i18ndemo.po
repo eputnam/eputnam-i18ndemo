@@ -25,29 +25,29 @@ msgstr ""
 
 #: ../lib/facter/i18ndemo_fact.rb:4
 msgid "i18ndemo_fact: this is a raise from a custom fact from eputnam-i18ndemo"
-msgstr ""
+msgstr "eputnam-i18ndemo fact: これはeputnam-i18ndemoからのカスタムファクトからのレイズです"
 
 #: ../lib/puppet/functions/happyfuntime.rb:8
 msgid "IT'S HAPPY FUN TIME"
-msgstr ""
+msgstr "eputnam-i18ndemo function: それは楽しい時間です"
 
 #: ../lib/puppet/type/i18ndemo_type.rb:9
 msgid "Value %{v} is not a valid value for i18ndemo_type::name"
-msgstr ""
+msgstr "eputnam-i18ndemo type: 値は有%{v}効な値ではありません"
 
 #: ../lib/puppet/type/i18ndemo_type.rb:10
 msgid "Good value for i18ndemo_type::name"
-msgstr ""
+msgstr "eputnam-i18ndemo type: 良い値"
 
 #: ../lib/puppet/type/i18ndemo_type.rb:16
 msgid "%{v} is not a valid directory"
-msgstr ""
+msgstr "eputnam-i18ndemo type: %{v}は有効なディレクトリではありません"
 
 #. metadata.json
 #: .summary
 msgid "Module to demo i18n functionality."
-msgstr ""
+msgstr "i18nデモモジュール"
 
 #. ./manifests/init.pp:17
 msgid "Creating i18ndemo file"
-msgstr ""
+msgstr "eputnam-i18ndemo init.pp: ファイルの作成"
