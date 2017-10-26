@@ -7,7 +7,8 @@
     "source": "https://github.com/eputnam/eputnam-i18ndemo",
     "project_page": "https://github.com/eputnam/eputnam-i18ndemo",
     "dependencies": [
-        {"name":"puppetlabs/stdlib","version_requirement":">= 4.13.1 < 5.0.0"}
+        {"name":"puppetlabs/stdlib","version_requirement":">= 4.13.1 < 5.0.0"},
+        {"name":"puppetlabs/translate","version_requirement":">= 1.0.0 < 2.0.0"}
     ],
     "operatingsystem_support": [
         {

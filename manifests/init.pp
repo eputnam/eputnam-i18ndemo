@@ -20,6 +20,6 @@ class i18ndemo (
       content => 'some i18n demo content for no reason',
     }
   } else {
-    fail("Failed to create ${filename} file.")
+    fail(translate("Failed to create %{filename} file.", { 'filename' => $filename }))
   }
 }
