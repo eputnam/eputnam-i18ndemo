@@ -1,5 +1,7 @@
 ---
-require: rubocop-rspec
+require:
+  - rubocop-rspec
+  - rubocop-i18n
 AllCops:
   TargetRubyVersion: '2.1'
   Include:
@@ -62,7 +64,7 @@ Style/TrailingCommaInLiteral:
 Style/SymbolArray:
   Description: Using percent style obscures symbolic intent of array's contents.
   EnforcedStyle: brackets
-Style/EndOfLine:
+Layout/EndOfLine:
   Enabled: false
 Style/CollectionMethods:
   Enabled: true
@@ -102,3 +104,7 @@ Style/IfUnlessModifier:
   Enabled: false
 Style/SymbolProc:
   Enabled: false
+GetText/DecorateString:
+  Enabled: false
+GetText/DecorateFunctionMessage:
+  Enabled: true
