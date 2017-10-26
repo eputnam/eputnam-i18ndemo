@@ -14,11 +14,11 @@ describe Puppet::Type.type(:i18ndemo_type).provider(:ruby) do
   let(:resource) { Puppet::Type.type(:i18ndemo_type).new(ensure: 'present', name: name, dir: dir) }
   let(:provider) { resource.provider }
 
-  after { FileUtils.rm_rf dir }
+  after(:each) { FileUtils.rm_rf dir }
 
   it 'is expected to write to a file' do
     provider.create
-    expect(File.read("#{dir}/list")).to_not be nil
+    expect(File.read("#{dir}/list")).not_to be nil
   end
 
   it 'is expected to write content to a file' do

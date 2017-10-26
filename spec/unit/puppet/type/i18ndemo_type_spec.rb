@@ -6,12 +6,12 @@ describe Puppet::Type.type(:i18ndemo_type) do
       {
         'ensure' => 'present',
         'name'   => '3245',
-        'dir'    => '/etc'
+        'dir'    => '/etc',
       }
     end
 
-    it 'should raise an error' do
-      expect{described_class.new(params)}.to raise_error Puppet::ResourceError
+    it 'raises an error' do
+      expect { described_class.new(params) }.to raise_error Puppet::ResourceError
     end
   end
 
@@ -20,12 +20,12 @@ describe Puppet::Type.type(:i18ndemo_type) do
       {
         'ensure' => 'present',
         'name'   => 'hello, world!',
-        'dir'    => 'etc'
+        'dir'    => 'etc',
       }
     end
 
-    it 'should raise an error' do
-      expect{described_class.new(params)}.to raise_error Puppet::ResourceError
+    it 'raises an error' do
+      expect { described_class.new(params) }.to raise_error Puppet::ResourceError
     end
   end
 end
