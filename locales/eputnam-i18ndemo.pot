@@ -1,5 +1,4 @@
-# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo )  #-#-#-#-#
-# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo )  #-#-#-#-#
+# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.1.0-2-g045114c)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2017 Puppet, Inc.
 # This file is distributed under the same license as the eputnam-i18ndemo package.
@@ -10,12 +9,13 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo )  #-#-#-#-#\n"
-"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo )  #-#-#-#-#\n"
-"Project-Id-Version: eputnam-i18ndemo \n"
+"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.1.0-2-g045114c)  #-#-#-#-"
+"#\n"
+"Project-Id-Version: eputnam-i18ndemo 0.1.0-2-g045114c\n"
+"\n"
 "Report-Msgid-Bugs-To: docs@puppet.com\n"
-"POT-Creation-Date: 2017-10-26 15:46-0700\n"
-"PO-Revision-Date: 2017-10-26 15:46-0700\n"
+"POT-Creation-Date: 2017-10-26 19:19-0700\n"
+"PO-Revision-Date: 2017-10-26 19:19-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -26,7 +26,7 @@ msgstr ""
 "#-#-#-#-#  eputnam-i18ndemo_metadata.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2017-10-26T15:47:08-07:00\n"
+"POT-Creation-Date: 2017-10-26T19:19:47-07:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,18 +37,7 @@ msgstr ""
 "#-#-#-#-#  puppet.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-26 15:47:19 -0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 2.0.0\n"
-"#-#-#-#-#  puppet.pot (PACKAGE VERSION)  #-#-#-#-#\n"
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-26 16:17:55 -0700\n"
+"POT-Creation-Date: 2017-10-26 19:19:54 -0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,6 +52,18 @@ msgstr ""
 
 #: ../lib/puppet/functions/happyfuntime.rb:8
 msgid "IT'S HAPPY FUN TIME"
+msgstr ""
+
+#: ../lib/puppet/provider/i18ndemo_type/ruby.rb:8
+msgid "Creating i18ndemo_type."
+msgstr ""
+
+#: ../lib/puppet/provider/i18ndemo_type/ruby.rb:18
+msgid "Destroying list."
+msgstr ""
+
+#: ../lib/puppet/provider/i18ndemo_type/ruby.rb:24
+msgid "Does i18ndemo_type exist?"
 msgstr ""
 
 #: ../lib/puppet/type/i18ndemo_type.rb:9

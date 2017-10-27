@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: docs@puppet.com\n"
-"POT-Creation-Date: 2017-10-26 15:46-0700\n"
+"POT-Creation-Date: 2017-10-26 19:19-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,11 +25,26 @@ msgstr ""
 
 #: ../lib/facter/i18ndemo_fact.rb:4
 msgid "i18ndemo_fact: this is a raise from a custom fact from eputnam-i18ndemo"
-msgstr "eputnam-i18ndemo fact: これはeputnam-i18ndemoからのカスタムファクトからのレイズです"
+msgstr ""
+"eputnam-i18ndemo fact: これはeputnam-i18ndemoからのカスタムファクトからのレイ"
+"ズです"
 
 #: ../lib/puppet/functions/happyfuntime.rb:8
 msgid "IT'S HAPPY FUN TIME"
 msgstr "eputnam-i18ndemo function: それは楽しい時間です"
+
+#: ../lib/puppet/provider/i18ndemo_type/ruby.rb:8
+#, fuzzy
+msgid "Creating i18ndemo_type."
+msgstr "eputnam-i18ndemo provider: ファイルの作成"
+
+#: ../lib/puppet/provider/i18ndemo_type/ruby.rb:18
+msgid "Destroying list."
+msgstr "eputnam-i18ndemo provider: リストを破棄する"
+
+#: ../lib/puppet/provider/i18ndemo_type/ruby.rb:24
+msgid "Does i18ndemo_type exist?"
+msgstr "eputnam-i18ndemo provider: i18ndemo_typeは存在しますか"
 
 #: ../lib/puppet/type/i18ndemo_type.rb:9
 msgid "Value %{v} is not a valid value for i18ndemo_type::name"
