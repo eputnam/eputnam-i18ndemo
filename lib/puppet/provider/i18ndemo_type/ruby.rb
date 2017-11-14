@@ -24,4 +24,9 @@ Puppet::Type.type(:i18ndemo_type).provide(:ruby) do
     warning(_('Does i18ndemo_type exist?'))
     resource[:ensure] == :present
   end
+
+  def self.instances
+    warning(_('instances warning message from i18ndemo_type'))
+    [ new(:name => 'instances_name', :provider => :i18ndemo) ]
+  end
 end
