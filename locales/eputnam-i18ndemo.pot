@@ -1,4 +1,4 @@
-# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.1.0-2-g045114c)  #-#-#-#-#
+# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.1.0-6-g3a8b0be)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2017 Puppet, Inc.
 # This file is distributed under the same license as the eputnam-i18ndemo package.
@@ -9,13 +9,13 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.1.0-2-g045114c)  #-#-#-#-"
+"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.1.0-6-g3a8b0be)  #-#-#-#-"
 "#\n"
-"Project-Id-Version: eputnam-i18ndemo 0.1.0-2-g045114c\n"
+"Project-Id-Version: eputnam-i18ndemo 0.1.0-6-g3a8b0be\n"
 "\n"
 "Report-Msgid-Bugs-To: docs@puppet.com\n"
-"POT-Creation-Date: 2017-10-26 19:19-0700\n"
-"PO-Revision-Date: 2017-10-26 19:19-0700\n"
+"POT-Creation-Date: 2017-11-14 23:42-0800\n"
+"PO-Revision-Date: 2017-11-14 23:42-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -26,7 +26,7 @@ msgstr ""
 "#-#-#-#-#  eputnam-i18ndemo_metadata.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2017-10-26T19:19:47-07:00\n"
+"POT-Creation-Date: 2017-11-14T23:43:06-08:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 "#-#-#-#-#  puppet.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-26 19:19:54 -0700\n"
+"POT-Creation-Date: 2017-11-14 23:42:57 -0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,6 +64,10 @@ msgstr ""
 
 #: ../lib/puppet/provider/i18ndemo_type/ruby.rb:24
 msgid "Does i18ndemo_type exist?"
+msgstr ""
+
+#: ../lib/puppet/provider/i18ndemo_type/ruby.rb:29
+msgid "instances warning message from i18ndemo_type"
 msgstr ""
 
 #: ../lib/puppet/type/i18ndemo_type.rb:9

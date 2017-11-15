@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: docs@puppet.com\n"
-"POT-Creation-Date: 2017-10-26 19:19-0700\n"
+"POT-Creation-Date: 2017-11-14 23:42-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,6 +45,10 @@ msgstr "eputnam-i18ndemo provider: リストを破棄する"
 #: ../lib/puppet/provider/i18ndemo_type/ruby.rb:24
 msgid "Does i18ndemo_type exist?"
 msgstr "eputnam-i18ndemo provider: i18ndemo_typeは存在しますか"
+
+#: ../lib/puppet/provider/i18ndemo_type/ruby.rb:29
+msgid "instances warning message from i18ndemo_type"
+msgstr "i18ndemo_typeからの警告メッセージ"
 
 #: ../lib/puppet/type/i18ndemo_type.rb:9
 msgid "Value %{v} is not a valid value for i18ndemo_type::name"
