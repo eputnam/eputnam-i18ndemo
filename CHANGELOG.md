@@ -2,10 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
-## Release 0.1.0
+## Release 0.2.1
+### Summary
+Patch release with updated translations
 
-**Features**
+#### Added
+- Translation for self.instances warning message
 
-**Bugfixes**
-
-**Known Issues**
