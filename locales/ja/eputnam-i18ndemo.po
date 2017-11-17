@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: docs@puppet.com\n"
-"POT-Creation-Date: 2017-11-14 23:42-0800\n"
+"POT-Creation-Date: 2017-11-17 11:24-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,18 @@ msgid "i18ndemo_fact: this is a raise from a custom fact from eputnam-i18ndemo"
 msgstr ""
 "eputnam-i18ndemo fact: これはeputnam-i18ndemoからのカスタムファクトからのレイ"
 "ズです"
+
+#: ../lib/puppet/face/i18ndemo.rb:8
+msgid "I18ndemo module puppet face example."
+msgstr "eputnam-i18ndemo face: I18ndemoモジュールの人形の顔の例"
+
+#: ../lib/puppet/face/i18ndemo.rb:15
+msgid "Summary of help for the test_face action."
+msgstr "eputnam-i18ndemo face: test_faceアクションのヘルプの要約"
+
+#: ../lib/puppet/face/i18ndemo.rb:17
+msgid "i18ndemo test_face got invoked"
+msgstr "eputnam-i18ndemo face: i18ndemo test_faceが呼び出されました"
 
 #: ../lib/puppet/functions/happyfuntime.rb:8
 msgid "IT'S HAPPY FUN TIME"
@@ -48,7 +60,7 @@ msgstr "eputnam-i18ndemo provider: i18ndemo_typeは存在しますか"
 
 #: ../lib/puppet/provider/i18ndemo_type/ruby.rb:29
 msgid "instances warning message from i18ndemo_type"
-msgstr "i18ndemo_typeからの警告メッセージ"
+msgstr "eputnam-i18ndemo type: i18ndemo_typeからの警告メッセージ"
 
 #: ../lib/puppet/type/i18ndemo_type.rb:9
 msgid "Value %{v} is not a valid value for i18ndemo_type::name"
@@ -73,4 +85,4 @@ msgstr "eputnam-i18ndemo init.pp: ファイルの作成"
 
 #. ./manifests/init.pp:23
 msgid "Failed to create %{filename} file."
-msgstr "%{filename}ファイルの作成に失敗しました"
+msgstr "eputnam-i18ndemo init.pp: %{filename}ファイルの作成に失敗しました"
