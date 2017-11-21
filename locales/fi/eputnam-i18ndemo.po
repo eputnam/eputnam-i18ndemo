@@ -1,5 +1,5 @@
-# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo )  #-#-#-#-#
-# Japanese translations for eputnam-i18ndemo package.
+# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.2.1-3-gd7af1d5)  #-#-#-#-#
+# Finnish translations for eputnam-i18ndemo package.
 # Copyright (C) 2017 Puppet, Inc.
 # This file is distributed under the same license as the eputnam-i18ndemo package.
 # Automatically generated, 2017.
@@ -14,76 +14,78 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ja\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo )  #-#-#-#-#\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.2.1-3-gd7af1d5)  #-#-#-#-"
+"#\n"
+"\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "#-#-#-#-#  eputnam-i18ndemo_metadata.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"X-Generator: Translate Toolkit 2.0.0\n"
+"#-#-#-#-#  puppet.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "X-Generator: Translate Toolkit 2.0.0\n"
 
 #: ../lib/facter/i18ndemo_fact.rb:4
 msgid "i18ndemo_fact: this is a raise from a custom fact from eputnam-i18ndemo"
 msgstr ""
-"eputnam-i18ndemo fact: これはeputnam-i18ndemoからのカスタムファクトからのレイ"
-"ズです"
+"i18ndemo_fact: tämä on korotus mukautetusta tosiasiasta eputnam-i18ndemo"
 
 #: ../lib/puppet/face/i18ndemo.rb:8
 msgid "I18ndemo module puppet face example."
-msgstr "eputnam-i18ndemo face: I18ndemoモジュールの人形の顔の例"
+msgstr "I18ndemo-moduulin nukke-kasvot esimerkki."
 
 #: ../lib/puppet/face/i18ndemo.rb:15
 msgid "Summary of help for the test_face action."
-msgstr "eputnam-i18ndemo face: test_faceアクションのヘルプの要約"
+msgstr "Yhteenveto test_face-toiminnon ohjeista"
 
 #: ../lib/puppet/face/i18ndemo.rb:17
 msgid "i18ndemo test_face got invoked"
-msgstr "eputnam-i18ndemo face: i18ndemo test_faceが呼び出されました"
+msgstr "i18ndemo test_face sai kutsun"
 
 #: ../lib/puppet/functions/happyfuntime.rb:8
 msgid "IT'S HAPPY FUN TIME"
-msgstr "eputnam-i18ndemo function: それは楽しい時間です"
+msgstr "SE ON HAUSKAA AIKAA"
 
 #: ../lib/puppet/provider/i18ndemo_type/ruby.rb:8
-#, fuzzy
 msgid "Creating i18ndemo_type."
-msgstr "eputnam-i18ndemo provider: ファイルの作成"
+msgstr "Luodaan i18ndemo_type."
 
 #: ../lib/puppet/provider/i18ndemo_type/ruby.rb:18
 msgid "Destroying list."
-msgstr "eputnam-i18ndemo provider: リストを破棄する"
+msgstr "Tuhota luettelo."
 
 #: ../lib/puppet/provider/i18ndemo_type/ruby.rb:24
 msgid "Does i18ndemo_type exist?"
-msgstr "eputnam-i18ndemo provider: i18ndemo_typeは存在しますか"
+msgstr "Onko i18ndemo_type olemassa?"
 
 #: ../lib/puppet/provider/i18ndemo_type/ruby.rb:29
 msgid "instances warning message from i18ndemo_type"
-msgstr "eputnam-i18ndemo type: i18ndemo_typeからの警告メッセージ"
+msgstr "instances varoitusviesti 18ndemo_type"
 
 #: ../lib/puppet/type/i18ndemo_type.rb:9
 msgid "Value %{v} is not a valid value for i18ndemo_type::name"
-msgstr "eputnam-i18ndemo type: 値は有%{v}効な値ではありません"
+msgstr "Arvo %{v} ei ole kelvollinen arvo i18ndemo_type::name"
 
 #: ../lib/puppet/type/i18ndemo_type.rb:10
 msgid "Good value for i18ndemo_type::name"
-msgstr "eputnam-i18ndemo type: 良い値"
+msgstr "Hyvä arvo i18ndemo_type::name"
 
 #: ../lib/puppet/type/i18ndemo_type.rb:16
 msgid "%{v} is not a valid directory"
-msgstr "eputnam-i18ndemo type: %{v}は有効なディレクトリではありません"
+msgstr "%{v} ei ole kelvollinen hakemisto"
 
 #. metadata.json
 #: .summary
 msgid "Module to demo i18n functionality."
-msgstr "i18nデモモジュール"
+msgstr "Moduuli demo i18n toiminnallisuuteen."
 
 #. ./manifests/init.pp:17
 #, fuzzy
 msgid "Creating an i18ndemo file"
-msgstr "eputnam-i18ndemo init.pp: ファイルの作成"
+msgstr "I18ndemo-tiedoston luominen"
 
 #. ./manifests/init.pp:23
 msgid "Failed to create %{filename} file."
-msgstr "eputnam-i18ndemo init.pp: %{filename}ファイルの作成に失敗しました"
+msgstr "%{filename} tiedostoa ei voitu luoda."

@@ -14,7 +14,7 @@ class i18ndemo (
 ) inherits i18ndemo::params {
   validate_absolute_path($filename)
   if $param1 == true {
-    warning(translate('Creating i18ndemo file'))
+    warning(translate('Creating an i18ndemo file'))
     file { $filename:
       ensure  => present,
       content => 'some i18n demo content for no reason',
