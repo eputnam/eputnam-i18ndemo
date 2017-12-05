@@ -6,7 +6,6 @@
 1. [Description](#description)
 2. [Setup - The basics of getting started with i18ndemo](#setup)
     * [Setup requirements](#setup-requirements)
-    * [Getting Started with i18ndemo](#getting-started-with-i18ndemo)
 3. [Usage - Configuration options and additional functionality](#usage)
 4. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 5. [Limitations - OS compatibility, etc.](#limitations)
@@ -22,8 +21,46 @@ This is a demo module to be used for testing i18n functionality in modules.
 This module requires puppetlabs-stdlib.
 
 ## Usage
+### warning from init.pp
+```puppet
+class { 'i18ndemo': }
+```
 
-This section is where you describe how to customize, configure, and do the fancy stuff with your module here. It's especially helpful if you include usage examples and code samples for doing things with your module.
+### failure from init.pp (includes interpolation)
+```puppet
+class { 'i18ndemo': 
+  param1 => false
+}
+```
+
+### warning from custom type
+```puppet
+i18ndemo_type { 'hello': }
+```
+(/etc is the default and is not a valid directory on OS X so you may need to pass it a custom dir to get rid of the Errorr)
+
+### ArgumentError from custom type
+```puppet
+i18ndemo_type { '12345': }
+```
+
+### warnings from type & provider
+```puppet
+i18ndemo_type { 'hello': 
+  ensure => present,
+  dir    => '/some/abs/path',
+}
+```
+
+### translated string from function
+```ruby
+happyfuntime('hello')
+```
+
+### warning from the face
+```bash
+$ puppet i18ndemo
+```
 
 ## Reference
 
@@ -104,6 +141,12 @@ Accepts and string, then prints it to STDOUT in reverse with some happy, fun dec
 #### i18ndemo_fact
 
 Raises an error for the sake of raising an error message.
+
+### Faces
+
+#### i18ndemo
+
+A test face that prints a warning.
 
 ## Limitations
 
