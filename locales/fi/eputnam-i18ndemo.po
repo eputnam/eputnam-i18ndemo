@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: docs@puppet.com\n"
-"POT-Creation-Date: 2017-11-21 12:03-0800\n"
+"POT-Creation-Date: 2017-12-15 08:56-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,15 +64,24 @@ msgstr "Onko i18ndemo_type olemassa?"
 msgid "instances warning message from i18ndemo_type"
 msgstr "instances varoitusviesti 18ndemo_type"
 
-#: ../lib/puppet/type/i18ndemo_type.rb:9
+#: ../lib/puppet/type/i18ndemo_type.rb:7
+msgid ""
+"The name parameter takes a variable of upper and lower case characters A-Za-z"
+msgstr "Nimiparametri ottaa suuren ja pienikokoisen merkin A-Za-z muuttujan"
+
+#: ../lib/puppet/type/i18ndemo_type.rb:11
 msgid "Value %{v} is not a valid value for i18ndemo_type::name"
 msgstr "Arvo %{v} ei ole kelvollinen arvo i18ndemo_type::name"
 
-#: ../lib/puppet/type/i18ndemo_type.rb:10
+#: ../lib/puppet/type/i18ndemo_type.rb:12
 msgid "Good value for i18ndemo_type::name"
 msgstr "Hyvä arvo i18ndemo_type::name"
 
-#: ../lib/puppet/type/i18ndemo_type.rb:16
+#: ../lib/puppet/type/i18ndemo_type.rb:17
+msgid "The dir parameter takes a directory path to inspect."
+msgstr "Dir-parametri ottaa hakemistopolun tarkistettavaksi."
+
+#: ../lib/puppet/type/i18ndemo_type.rb:20
 msgid "%{v} is not a valid directory"
 msgstr "%{v} ei ole kelvollinen hakemisto"
 

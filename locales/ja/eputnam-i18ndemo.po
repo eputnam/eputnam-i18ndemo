@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: docs@puppet.com\n"
-"POT-Creation-Date: 2017-11-21 12:03-0800\n"
+"POT-Creation-Date: 2017-12-15 08:56-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,15 +62,24 @@ msgstr "eputnam-i18ndemo provider: i18ndemo_typeは存在しますか"
 msgid "instances warning message from i18ndemo_type"
 msgstr "eputnam-i18ndemo type: i18ndemo_typeからの警告メッセージ"
 
-#: ../lib/puppet/type/i18ndemo_type.rb:9
+#: ../lib/puppet/type/i18ndemo_type.rb:7
+msgid ""
+"The name parameter takes a variable of upper and lower case characters A-Za-z"
+msgstr "eputnam-i18ndemo type: nameパラメータには、大文字と小文字の変数A-Za-zが使用されます"
+
+#: ../lib/puppet/type/i18ndemo_type.rb:11
 msgid "Value %{v} is not a valid value for i18ndemo_type::name"
 msgstr "eputnam-i18ndemo type: 値は有%{v}効な値ではありません"
 
-#: ../lib/puppet/type/i18ndemo_type.rb:10
+#: ../lib/puppet/type/i18ndemo_type.rb:12
 msgid "Good value for i18ndemo_type::name"
 msgstr "eputnam-i18ndemo type: 良い値"
 
-#: ../lib/puppet/type/i18ndemo_type.rb:16
+#: ../lib/puppet/type/i18ndemo_type.rb:17
+msgid "The dir parameter takes a directory path to inspect."
+msgstr "eputnam-i18ndemo type: dirパラメータは、検査するディレクトリパスをとります"
+
+#: ../lib/puppet/type/i18ndemo_type.rb:20
 msgid "%{v} is not a valid directory"
 msgstr "eputnam-i18ndemo type: %{v}は有効なディレクトリではありません"
 

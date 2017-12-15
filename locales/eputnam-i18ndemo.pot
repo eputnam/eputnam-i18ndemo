@@ -1,4 +1,4 @@
-# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.2.1-5-g0f761e9)  #-#-#-#-#
+# #-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.2.1-9-gef631fb)  #-#-#-#-#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2017 Puppet, Inc.
 # This file is distributed under the same license as the eputnam-i18ndemo package.
@@ -9,13 +9,13 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.2.1-5-g0f761e9)  #-#-#-#-"
+"#-#-#-#-#  eputnam-i18ndemo.pot (eputnam-i18ndemo 0.2.1-9-gef631fb)  #-#-#-#-"
 "#\n"
-"Project-Id-Version: eputnam-i18ndemo 0.2.1-5-g0f761e9\n"
+"Project-Id-Version: eputnam-i18ndemo 0.2.1-9-gef631fb\n"
 "\n"
 "Report-Msgid-Bugs-To: docs@puppet.com\n"
-"POT-Creation-Date: 2017-11-21 12:03-0800\n"
-"PO-Revision-Date: 2017-11-21 12:03-0800\n"
+"POT-Creation-Date: 2017-12-15 08:56-0800\n"
+"PO-Revision-Date: 2017-12-15 08:56-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -26,7 +26,7 @@ msgstr ""
 "#-#-#-#-#  eputnam-i18ndemo_metadata.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2017-11-21T12:03:19-08:00\n"
+"POT-Creation-Date: 2017-12-15T08:56:12-08:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 "#-#-#-#-#  puppet.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-21 12:03:29 -0800\n"
+"POT-Creation-Date: 2017-12-15 08:56:21 -0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,15 +82,24 @@ msgstr ""
 msgid "instances warning message from i18ndemo_type"
 msgstr ""
 
-#: ../lib/puppet/type/i18ndemo_type.rb:9
+#: ../lib/puppet/type/i18ndemo_type.rb:7
+msgid ""
+"The name parameter takes a variable of upper and lower case characters A-Za-z"
+msgstr ""
+
+#: ../lib/puppet/type/i18ndemo_type.rb:11
 msgid "Value %{v} is not a valid value for i18ndemo_type::name"
 msgstr ""
 
-#: ../lib/puppet/type/i18ndemo_type.rb:10
+#: ../lib/puppet/type/i18ndemo_type.rb:12
 msgid "Good value for i18ndemo_type::name"
 msgstr ""
 
-#: ../lib/puppet/type/i18ndemo_type.rb:16
+#: ../lib/puppet/type/i18ndemo_type.rb:17
+msgid "The dir parameter takes a directory path to inspect."
+msgstr ""
+
+#: ../lib/puppet/type/i18ndemo_type.rb:20
 msgid "%{v} is not a valid directory"
 msgstr ""
 
