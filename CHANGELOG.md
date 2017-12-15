@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## Release 0.2.3
+## Release 0.2.4
 ### Summary
 Patch release with updated translations
 
