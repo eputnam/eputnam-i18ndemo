@@ -9,6 +9,16 @@ Patch release with updated translations
 #### Added
 - Translations for type parameter descriptions
 
+## Release 0.2.3
+### Summary
+Patch release with updated translations
+
+#### Added
+- Translations for Finnish
+
+#### Fixed
+- Issue where message from init.pp was not showing because of fuzzy matching in .po file creation
+
 ## Release 0.2.2
 ### Summary
 Patch release with updated translations
